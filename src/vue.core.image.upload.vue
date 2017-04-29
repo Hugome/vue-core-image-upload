@@ -239,12 +239,6 @@
         type:String,
         default:  'Upload Image' 
       },
-      class: {
-        type: Array,
-        default:function() {
-          return [];
-        }
-      },
       extensions: {
         type: String,
         default:'png.jpg,jpeg,gif,svg,webp'
